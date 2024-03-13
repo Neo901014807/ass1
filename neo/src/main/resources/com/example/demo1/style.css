@@ -1,0 +1,24 @@
+.root {
+        -fx-font-family: Arial, sans-serif;
+        }
+
+        .flow-pane > .image-view {
+        -fx-effect: drop shadow(three-pass-box, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+        }
+
+        .image-view:hover {
+        -fx-effect: drop shadow(three-pass-box, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+        }
+
+        .button {
+        -fx-background-color: #black;
+        -fx-text-fill: white;
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        }
+
+        .button:hover {
+        -fx-background-color: black;
+        }
+        thumbnail.txt
+        Displaying thumbnail.txt.
